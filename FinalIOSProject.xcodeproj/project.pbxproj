@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE9FFE48902E52687B52F20D /* libPods-FinalIOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C998166DBA09E2A0945A497 /* libPods-FinalIOSProject.a */; };
+		D46923DE20AC984900F99117 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D46923DD20AC984900F99117 /* libsqlite3.0.tbd */; };
+		D46923E420ACA3C500F99117 /* FavoriteCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D46923E320ACA3C500F99117 /* FavoriteCollectionViewController.m */; };
+		D480D29D20ABCF2D008C690F /* Movies.m in Sources */ = {isa = PBXBuildFile; fileRef = D480D29C20ABCF2D008C690F /* Movies.m */; };
+		D480D29F20ABD36A008C690F /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = D480D29E20ABD36A008C690F /* girl.png */; };
+		D4B741B320AC7AE3006427FB /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B741B220AC7AE3006427FB /* DataBaseManager.m */; };
 		D4E394F120A672D5009F943C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E394F020A672D5009F943C /* main.m */; };
 		D4E394F420A672D5009F943C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E394F320A672D5009F943C /* AppDelegate.m */; };
 		D4E394F720A672D5009F943C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E394F620A672D5009F943C /* ViewController.m */; };
@@ -15,6 +21,7 @@
 		D4E394FF20A672D5009F943C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E394FD20A672D5009F943C /* LaunchScreen.storyboard */; };
 		D4E3950A20A672D5009F943C /* FinalIOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3950920A672D5009F943C /* FinalIOSProjectTests.m */; };
 		D4E3951520A672D5009F943C /* FinalIOSProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3951420A672D5009F943C /* FinalIOSProjectUITests.m */; };
+		D4E3952420A6738A009F943C /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3952320A6738A009F943C /* MainCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28E2F07EF44632FF67DF47B5 /* libPods-FinalIOSProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinalIOSProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29BD441F2DA19A714038FC1B /* libPods-FinalIOSProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinalIOSProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		376A1CC8D68FBA20FC5F54A9 /* Pods-FinalIOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalIOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FinalIOSProject/Pods-FinalIOSProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7C998166DBA09E2A0945A497 /* libPods-FinalIOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinalIOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1EB34D2E2C21DB245B5D882 /* Pods-FinalIOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinalIOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-FinalIOSProject/Pods-FinalIOSProject.release.xcconfig"; sourceTree = "<group>"; };
+		D2D82C6E834BF1A267EF8EB7 /* libPods-FinalIOSProject-FinalIOSProjectUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FinalIOSProject-FinalIOSProjectUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46923DD20AC984900F99117 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D46923E220ACA3C500F99117 /* FavoriteCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteCollectionViewController.h; sourceTree = "<group>"; };
+		D46923E320ACA3C500F99117 /* FavoriteCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteCollectionViewController.m; sourceTree = "<group>"; };
+		D480D29B20ABCF2D008C690F /* Movies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movies.h; sourceTree = "<group>"; };
+		D480D29C20ABCF2D008C690F /* Movies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movies.m; sourceTree = "<group>"; };
+		D480D29E20ABD36A008C690F /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		D4B741B120AC7AE3006427FB /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		D4B741B220AC7AE3006427FB /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
 		D4E394EC20A672D5009F943C /* FinalIOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalIOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E394F020A672D5009F943C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4E394F220A672D5009F943C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,8 @@
 		D4E3951020A672D5009F943C /* FinalIOSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalIOSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E3951420A672D5009F943C /* FinalIOSProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalIOSProjectUITests.m; sourceTree = "<group>"; };
 		D4E3951620A672D5009F943C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4E3952220A6738A009F943C /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		D4E3952320A6738A009F943C /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46923DE20AC984900F99117 /* libsqlite3.0.tbd in Frameworks */,
+				BE9FFE48902E52687B52F20D /* libPods-FinalIOSProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B3EFAB6B34B7073A8BF3FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				376A1CC8D68FBA20FC5F54A9 /* Pods-FinalIOSProject.debug.xcconfig */,
+				D1EB34D2E2C21DB245B5D882 /* Pods-FinalIOSProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CEDE8C645AD9C3799018A19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D46923DD20AC984900F99117 /* libsqlite3.0.tbd */,
+				7C998166DBA09E2A0945A497 /* libPods-FinalIOSProject.a */,
+				D2D82C6E834BF1A267EF8EB7 /* libPods-FinalIOSProject-FinalIOSProjectUITests.a */,
+				29BD441F2DA19A714038FC1B /* libPods-FinalIOSProjectTests.a */,
+				28E2F07EF44632FF67DF47B5 /* libPods-FinalIOSProjectUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D46923E520ACB6B300F99117 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				D4B741B120AC7AE3006427FB /* DataBaseManager.h */,
+				D4B741B220AC7AE3006427FB /* DataBaseManager.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		D46923E620ACB6DD00F99117 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D4E3952220A6738A009F943C /* MainCollectionViewController.h */,
+				D4E3952320A6738A009F943C /* MainCollectionViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D46923E720ACB6F200F99117 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				D46923E220ACA3C500F99117 /* FavoriteCollectionViewController.h */,
+				D46923E320ACA3C500F99117 /* FavoriteCollectionViewController.m */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		D46923E820ACB70100F99117 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D4E394F520A672D5009F943C /* ViewController.h */,
+				D4E394F620A672D5009F943C /* ViewController.m */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		D46923EA20ACB77F00F99117 /* Pojos */ = {
+			isa = PBXGroup;
+			children = (
+				D480D29B20ABCF2D008C690F /* Movies.h */,
+				D480D29C20ABCF2D008C690F /* Movies.m */,
+			);
+			name = Pojos;
+			sourceTree = "<group>";
+		};
 		D4E394E320A672D5009F943C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +176,8 @@
 				D4E3950820A672D5009F943C /* FinalIOSProjectTests */,
 				D4E3951320A672D5009F943C /* FinalIOSProjectUITests */,
 				D4E394ED20A672D5009F943C /* Products */,
+				9CEDE8C645AD9C3799018A19 /* Frameworks */,
+				8B3EFAB6B34B7073A8BF3FE7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +194,14 @@
 		D4E394EE20A672D5009F943C /* FinalIOSProject */ = {
 			isa = PBXGroup;
 			children = (
+				D46923EA20ACB77F00F99117 /* Pojos */,
+				D46923E820ACB70100F99117 /* Details */,
+				D46923E720ACB6F200F99117 /* Favorites */,
+				D46923E620ACB6DD00F99117 /* Home */,
+				D46923E520ACB6B300F99117 /* DataBase */,
+				D480D29E20ABD36A008C690F /* girl.png */,
 				D4E394F220A672D5009F943C /* AppDelegate.h */,
 				D4E394F320A672D5009F943C /* AppDelegate.m */,
-				D4E394F520A672D5009F943C /* ViewController.h */,
-				D4E394F620A672D5009F943C /* ViewController.m */,
 				D4E394F820A672D5009F943C /* Main.storyboard */,
 				D4E394FB20A672D5009F943C /* Assets.xcassets */,
 				D4E394FD20A672D5009F943C /* LaunchScreen.storyboard */,
@@ -147,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4E3951920A672D5009F943C /* Build configuration list for PBXNativeTarget "FinalIOSProject" */;
 			buildPhases = (
+				5E182F4A8DB38289103F1F73 /* [CP] Check Pods Manifest.lock */,
 				D4E394E820A672D5009F943C /* Sources */,
 				D4E394E920A672D5009F943C /* Frameworks */,
 				D4E394EA20A672D5009F943C /* Resources */,
@@ -244,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E394FF20A672D5009F943C /* LaunchScreen.storyboard in Resources */,
+				D480D29F20ABD36A008C690F /* girl.png in Resources */,
 				D4E394FC20A672D5009F943C /* Assets.xcassets in Resources */,
 				D4E394FA20A672D5009F943C /* Main.storyboard in Resources */,
 			);
@@ -265,12 +364,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E182F4A8DB38289103F1F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinalIOSProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D4E394E820A672D5009F943C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46923E420ACA3C500F99117 /* FavoriteCollectionViewController.m in Sources */,
 				D4E394F720A672D5009F943C /* ViewController.m in Sources */,
+				D4E3952420A6738A009F943C /* MainCollectionViewController.m in Sources */,
+				D4B741B320AC7AE3006427FB /* DataBaseManager.m in Sources */,
+				D480D29D20ABCF2D008C690F /* Movies.m in Sources */,
 				D4E394F420A672D5009F943C /* AppDelegate.m in Sources */,
 				D4E394F120A672D5009F943C /* main.m in Sources */,
 			);
@@ -411,23 +535,37 @@
 		};
 		D4E3951A20A672D5009F943C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376A1CC8D68FBA20FC5F54A9 /* Pods-FinalIOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinalIOSProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ITI.FinalIOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D4E3951B20A672D5009F943C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EB34D2E2C21DB245B5D882 /* Pods-FinalIOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FinalIOSProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ITI.FinalIOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -498,6 +636,7 @@
 				D4E3951B20A672D5009F943C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E3951C20A672D5009F943C /* Build configuration list for PBXNativeTarget "FinalIOSProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +645,7 @@
 				D4E3951E20A672D5009F943C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E3951F20A672D5009F943C /* Build configuration list for PBXNativeTarget "FinalIOSProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +654,7 @@
 				D4E3952120A672D5009F943C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
